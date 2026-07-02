@@ -20,3 +20,9 @@
 2. פתח את הטרמינל והרצ את פקודת הרינדור:
    ```bash
    python render_slides.py
+
+<img width="1901" height="1013" alt="צילום מסך 2026-07-02 153502" src="https://github.com/user-attachments/assets/eaaa5fb2-20c0-498a-a2a1-153b85aa46f9" />
+<img width="1897" height="785" alt="צילום מסך 2026-07-02 153547" src="https://github.com/user-attachments/assets/e9fcbcd0-9e92-4223-9a17-2147fe82b383" />
+<img width="1882" height="1000" alt="צילום מסך 2026-07-02 153535" src="https://github.com/user-attachments/assets/c6c5362f-79be-4a0a-a6e6-41b2ee7cd48b" />
+<img width="1891" height="1011" alt="צילום מסך 2026-07-02 153515" src="https://github.com/user-attachments/assets/930c1ead-802f-444e-8558-8bb9533604d8" />
+<img width="1487" height="735" alt="צילום מסך 2026-07-02 153348" src="https://github.com/user-attachments/assets/a627ec42-e5d8-4c99-a6f9-25242a28b211" />
