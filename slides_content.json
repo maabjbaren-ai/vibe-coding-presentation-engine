@@ -1,0 +1,255 @@
+{
+  "presentation_title": "Multimedia Architecture via Vibe Coding",
+  "group_code": "biu-rl07",
+  "slides": [
+    {
+      "id": 1,
+      "type": "title",
+      "language": "en",
+      "title": "Multimedia Architecture via Vibe Coding",
+      "subtitle": "The AI-Native Paradigm Shift for Managers",
+      "source": "Ch. Intro, lines 1-10"
+    },
+    {
+      "id": 2,
+      "type": "bullets",
+      "language": "he",
+      "title": "מהפכת ה-Vibe Coding",
+      "subtitle": "מעבר פרדיגמה בעולם הפיתוח",
+      "bullets": [
+        "המונח נטבע על ידי חוקר ה-AI אנדריי קרפתי בשנת 2025.",
+        "מעבר מקידוד ידני שורתי להזרקת כוונות בשפה טבעית.",
+        "סוכני בינה מלאכותית אוטונומיים כותבים, בודקים ומתקנים את הקוד."
+      ],
+      "source": "הקדמה, שורות 3-7"
+    },
+    {
+      "id": 3,
+      "type": "bullets",
+      "language": "he",
+      "title": "תפקיד הסטודנט לניהול",
+      "subtitle": "מצרכן טכנולוגיה לארכיטקט מערכות",
+      "bullets": [
+        "המנהל מתפקד כמנהל מוצר העומד בראש צוות סוכנים.",
+        "מיקוד בהגדרת מטרות על, פיקוח על אינטגרציה וחשיבה ביקורתית.",
+        "שחרור מהצורך להתעסק בפתרון שגיאות תחביר וסינטקס."
+      ],
+      "source": "הקדמה, שורות 5-7"
+    },
+    {
+      "id": 4,
+      "type": "bullets",
+      "language": "en",
+      "title": "The Production Chain Flow",
+      "subtitle": "From Business Brief to Finished Asset",
+      "bullets": [
+        "Modular construction where each step validates the previous one.",
+        "Intent updates inside a single data structure (JSON file).",
+        "Pipeline items: Business Brief -> JSON -> HTML -> Fountain -> Audio -> Video."
+      ],
+      "source": "Ch. Intro, lines 7-11"
+    },
+    {
+      "id": 5,
+      "type": "bullets",
+      "language": "he",
+      "title": "ארכיטקטורת המצגות מבוססות הקוד",
+      "subtitle": "מדוע הכלים המסורתיים מעכבים אותנו?",
+      "bullets": [
+        "כלים גרפיים דורשים עדכון ידני יקר ומסתכנים בחוסר עקביות.",
+        "הפרדת כוונת המנהל (Content) מהביצוע הוויזואלי (Rendering).",
+        "שינוי שדה יחיד בקובץ הנתונים מעדכן את המצגת כולה מאליה."
+      ],
+      "source": "פרק 1, שורות 1-5"
+    },
+    {
+      "id": 6,
+      "type": "table",
+      "language": "en",
+      "title": "Presentation Frameworks Comparison",
+      "subtitle": "Evaluating Code-Based Slide Engines",
+      "headers": ["Framework", "Input Type", "RTL Support", "Best For"],
+      "rows": [
+        ["python-pptx", "Manual / Code", "Partial", "Static Corporate Reports"],
+        ["manim-slides", "Python Logic", "Difficult", "Mathematical Animations"],
+        ["hovercraft", "reStructuredText", "Partial", "3D Z-Axis Transitions"],
+        ["Reveal.js", "HTML / JSON", "Full", "Executive Presentation Standards"]
+      ],
+      "source": "Ch. 1, Table 1"
+    },
+    {
+      "id": 7,
+      "type": "bullets",
+      "language": "he",
+      "title": "האתגר השקט של ה-RTL",
+      "subtitle": "שבירת הטיפוגרפיה בדפדפנים",
+      "bullets": [
+        "מנועי AI אומנו על אנגלית ומניחים זרימה משמאל לימין.",
+        "טקסט עברי גנרי גורם לפיסוק לקפוץ לשוליים הלא נכונים.",
+        "סימני תבליט (Bullets) ממוקמים הפוך ומחרבים את הפריסה."
+      ],
+      "source": "פרק 1, שורות 26-31"
+    },
+    {
+      "id": 8,
+      "type": "bullets",
+      "language": "he",
+      "title": "כללי הזהב לתבנית עברית עמידה",
+      "subtitle": "אדריכלות CSS במקום קידוד שבור",
+      "bullets": [
+        "הגדרת מאפייני כיווניות קשיחים ברמת המסמך: dir='rtl' ו-lang='he'.",
+        "שימוש ב-Flexbox או display: table ליישור תבליטים מוחלט מימין.",
+        "החלת unicode-bidi: embed למניעת היפוך מספרים ומילים לועזיות."
+      ],
+      "source": "פרק 1.2.1, שורות 1-8"
+    },
+    {
+      "id": 9,
+      "type": "bullets",
+      "language": "en",
+      "title": "JSON as a Management Contract",
+      "subtitle": "Decoupling Intent from Implementation",
+      "bullets": [
+        "JSON serves as a strict mathematical layout specifier.",
+        "Allows identical reproducibility across different deployment nodes.",
+        "Enables version control tracking via Git logs."
+      ],
+      "source": "Ch. 1, lines 32-35"
+    },
+    {
+      "id": 10,
+      "type": "bullets",
+      "language": "he",
+      "title": "תסריטאות כארכיטקטורה",
+      "subtitle": "התסריט כמסמך אפיון תוכנה",
+      "bullets": [
+        "סרטון מולטימדיה אינו מתחיל בעריכה, הוא מתחיל במחשבה.",
+        "אפיון סצנות, פעולות פיזיות ומסלול נרטיבי מוגדר היטב.",
+        "התסריט משמש פקודת הרצה (Execution Command) ישירה לסוכן."
+      ],
+      "source": "פרק 2, שורות 37-39"
+    },
+    {
+      "id": 11,
+      "type": "code",
+      "language": "en",
+      "title": "Fountain Markup Syntax",
+      "subtitle": "Bridging Text and Programmatic Parsing",
+      "code": "INT. STARTUP OFFICE - NIGHT\nThe room is dark. DANA stares at a monitor.\nDANA\n(quietly)\nWe are not ready.",
+      "source": "Ch. 2.1.1, Code Block"
+    },
+    {
+      "id": 12,
+      "type": "bullets",
+      "language": "he",
+      "title": "פסיכולוגיית התיאור הוויזואלי",
+      "subtitle": "חוק הברזל: הראה, אל תספר",
+      "bullets": [
+        "סוכני וידאו נכשלים לחלוטין ברנדור של רגשות מופשטים.",
+        "חובה להימנע ממשפטים כמו 'המנהל לחוץ ומודאג מהעסקה'.",
+        "יש לכתוב: 'המנהל רוכס ופורם את כפתור החליפה, זיעה נקווית על מצחו'."
+      ],
+      "source": "פרק 2.2, שורות 53-57"
+    },
+    {
+      "id": 13,
+      "type": "bullets",
+      "language": "en",
+      "title": "Lyric Architecture in LLMs",
+      "subtitle": "The Structure of Programmatic Songs",
+      "bullets": [
+        "Audio generators need strictly engineered lyric schemas.",
+        "Standard structures navigate emotion: Verse -> Pre-Chorus -> Chorus -> Bridge.",
+        "The Hook must lock onto the core corporate value proposition."
+      ],
+      "source": "Ch. 3.1, lines 59-70"
+    },
+    {
+      "id": 14,
+      "type": "bullets",
+      "language": "he",
+      "title": "טכניקת החרוז הנטוי",
+      "subtitle": "בריחה מהקלישאה הגנרית",
+      "bullets": [
+        "מודלים נוטים לחרוזים בנאליים וצפויים (כמו אהבה/לבבה).",
+        "חרוז נטוי (Slant Rhyme) מתאים תנועות ומשפחות עיצורים קרובות.",
+        "שימוש מונחה במשפחות: הפוצצים (Plosives) והחוככים (Fricatives)."
+      ],
+      "source": "פרק 3.1.1, הטבלה הפונטית"
+    },
+    {
+      "id": 15,
+      "type": "table",
+      "language": "en",
+      "title": "Suno V5 Instrumental Equalizer",
+      "subtitle": "The Psychological Profile of Sound",
+      "headers": ["Instrument", "Associated Emotion", "Strategic Use Case"],
+      "rows": [
+        ["Cello / Horn", "Deep Sadness, Fear, Epic Weight", "Human Stories, Turning Points"],
+        ["Xylophone / Marimba", "Joy, Playfulness, Release", "App UI, Explainer Education"],
+        ["Harp / Soft Piano", "Tranquility, Spiritual Love, Trust", "Luxury Brands, Healthcare Assets"]
+      ],
+      "source": "Ch. 4.1, Table 3"
+    },
+    {
+      "id": 16,
+      "type": "bullets",
+      "language": "en",
+      "title": "Video Post-Production Ecosystems",
+      "subtitle": "From Python Pixels to Web Components",
+      "bullets": [
+        "MoviePy maps frames via Numpy to FFmpeg, leading to slow processing bottlenecks.",
+        "ffmpeg-python handles programmatic multiplexing and subtitle burns at warp speed.",
+        "Remotion leverages the browser layout engine to render complex motion graphics."
+      ],
+      "source": "Ch. 5.1, Table 4"
+    },
+    {
+      "id": 17,
+      "type": "bullets",
+      "language": "he",
+      "title": "עידן ה-Claude Skills",
+      "subtitle": "הזרקת מומחיות מקומית ישירות לסוכן",
+      "bullets": [
+        "מעבר מסוכנים גנריים מוטי הזיות לסוכנים בעלי מומחיות קונטקסטואלית.",
+        "קובץ SKILL.md מגדיר נהלי עבודה קשיחים ותבניות מוגדרות מראש.",
+        "Claude Code CLI משתמש בסקיל כדי לכתוב קומפוזיציות ללא שגיאות סינטקס."
+      ],
+      "source": "פרק 6, שורות 143-155"
+    },
+    {
+      "id": 18,
+      "type": "bullets",
+      "language": "en",
+      "title": "Prompt Injection & Security Controls",
+      "subtitle": "Securing Untrusted Data in AI Agents",
+      "bullets": [
+        "Dynamic automation text blocks expose compilation layers to code injection.",
+        "Mitigation requires strict typing maps and schema validations inside parser scripts.",
+        "Sanitizing text delimiters guarantees that data blocks never escalate to execution commands."
+      ],
+      "source": "Ch. 7.2.2, Evaluation Criteria"
+    },
+    {
+      "id": 19,
+      "type": "bullets",
+      "language": "he",
+      "title": "ניתוח ROI ניהולי וכלכלי",
+      "subtitle": "הערך המדיד של שינוי הפרדיגמה",
+      "bullets": [
+        "צמצום זמני הפקה מסרטים ומצגות של שבועות לדקות בודדות.",
+        "חיסכון פי 250 בעלויות הפקה מסורתיות מול הפקה מונחית Vibe Coding.",
+        "חובת ניטור כספי: מעקב צריכת טוקנים (Tokens) מדויקת לאורך הפרויקט."
+      ],
+      "source": "פרק 7, שורות 155-165"
+    },
+    {
+      "id": 20,
+      "type": "title",
+      "language": "he",
+      "title": "סוף דבר: המנהל כארכיטקט",
+      "subtitle": "הכללים השתנו, הכוונה הניהולית - לא.",
+      "source": "פרק 7.3, סיכום הספר"
+    }
+  ]
+}
